@@ -1,10 +1,10 @@
 // NAVIGATION
 export const NAV_LINKS = [
     { href: '/', key: 'home', label: 'Home' },
-    { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-    { href: '/', key: 'services', label: 'Services' },
-    { href: '/', key: 'pricing ', label: 'Pricing ' },
-    { href: '/', key: 'contact_us', label: 'Contact Us' },
+    { href: '/#arena', key: 'arena', label: 'Arena' },
+    { href: '/#guides', key: 'guides', label: 'Guides' },
+    { href: '/#features', key: 'features ', label: 'Features ' },
+    { href: '/#contact-us', key: 'contact_us', label: 'Contact Us' },
   ];
   
   // CAMP SECTION
@@ -62,7 +62,7 @@ export const NAV_LINKS = [
     },
     {
       title: 'Our Community',
-      links: ['Climbing xixixi', 'Hiking hilink', 'Hilink kinthill'],
+      links: ['Guideline', 'Partner', 'Join Us'],
     },
   ];
   
@@ -77,11 +77,11 @@ export const NAV_LINKS = [
   export const SOCIALS = {
     title: 'Social',
     links: [
-      '/facebook.svg',
-      '/instagram.svg',
-      '/twitter.svg',
-      '/youtube.svg',
-      '/wordpress.svg',
+      { logo: '/facebook.svg', url: 'https://facebook.com' },
+      { logo: '/instagram.svg', url: 'https://instagram.com' },
+      { logo: '/twitter.svg', url: 'https://twitter.com' },
+      { logo: '/youtube.svg', url: 'https://youtube.com' },
+      { logo: '/wordpress.svg', url: 'https://wordpress.com' },
     ],
   };
   
